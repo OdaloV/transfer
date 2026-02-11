@@ -86,3 +86,5 @@ func (h *Handler) Generate(w http.ResponseWriter, r *http.Request) {
 		Result: result,
 	})
 }
+//check that not all errors give 404,it should be able to do,other errors
+//based on the changes made
